@@ -269,6 +269,12 @@ input:hover:not(input[type='submit']){
 	background:  white;
 }
 
+input:focus:not(input[type='submit']){
+	box-shadow: 0 0 5px pink;
+	border: 1px solid mistyrose; 
+	background: white; 
+}
+
 p.footer{
 	font-size:  10px;
 	max-width:  300px;
